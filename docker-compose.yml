@@ -1,0 +1,9 @@
+version: '3'
+services:
+  awstools:
+    command: python awstools
+    build:
+      context: ./
+    volumes:
+    - ./:/app
+    - ${HOME}/.aws:/root/.aws
