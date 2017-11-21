@@ -1,7 +1,7 @@
 import boto3
-from utils import *
 import argparse
 import functools
+from awstools.utils import *
 
 class ECS(object):
     def __init__(self, name, region, key):

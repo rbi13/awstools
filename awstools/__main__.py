@@ -1,6 +1,6 @@
 import sys
 import argparse
-from ecs import ECS
+from awstools.ecs import ECS
 
 def main(args=None):
     if args is None:
